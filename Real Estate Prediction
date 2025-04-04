@@ -158,4 +158,4 @@ df9 = df8[df8.bath<df8.bhk+2]
 df9.shape
 
 df10 = df9.drop(['size','price_per_sqft'], axis='columns')
-df10.head(3)
+df10.head(5)
